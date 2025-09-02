@@ -1,16 +1,29 @@
 <div class="container">
+  <div class="particles">
+    <div class="particle particle--big particle--white particle--left"></div>
+    <div
+      class="particle particle--small particle--orange particle--bottom"
+    ></div>
+    <div class="particle particle--small particle--blue particle--center"></div>
+    <div class="particle particle--medium particle--white particle--top"></div>
+    <div
+      class="particle particle--medium particle--orange particle--right"
+    ></div>
+    <div class="particle particle--small particle--blue particle--extra"></div>
+    <div class="particle particle--small particle--white particle--edge"></div>
+  </div>
   <div class="code-block">
     <pre><code>
 const currentTime = {{ '{' }}
-  year: {{ timeService.time().year }},
-  month: {{ timeService.time().month }},
-  day: {{ timeService.time().day }},
-  dayOfWeek: "{{ timeService.time().dayOfWeek }}",
-  hour: {{ timeService.time().hour }},
-  minute: {{ timeService.time().minute }},
-  second: {{ timeService.time().second }},
-  dayProgress: "{{ timeService.time().dayProgress }}"
-{{ '}' }}
+  year: <span>{{ timeService.time().year }}</span>,
+  month: <span>{{ timeService.time().month }}</span>,
+  day: <span>{{ timeService.time().day }}</span>,
+  dayOfWeek: "<span>{{ timeService.time().dayOfWeek }}</span>",
+  hour: <span>{{ timeService.time().hour }}</span>,
+  minute: <span>{{ timeService.time().minute }}</span>,
+  second: <span>{{ timeService.time().second }}</span>,
+  dayProgress: "<span>{{ timeService.time().dayProgress }}</span>"
+{{ '};' }}
     </code></pre>
   </div>
 </div>
