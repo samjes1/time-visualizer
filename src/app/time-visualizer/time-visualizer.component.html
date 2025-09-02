@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="code-block">
+    <pre><code>
+const currentTime = {{ '{' }}
+  year: {{ timeService.time().year }},
+  month: {{ timeService.time().month }},
+  day: {{ timeService.time().day }},
+  dayOfWeek: "{{ timeService.time().dayOfWeek }}",
+  hour: {{ timeService.time().hour }},
+  minute: {{ timeService.time().minute }},
+  second: {{ timeService.time().second }},
+  dayProgress: "{{ timeService.time().dayProgress }}"
+{{ '}' }}
+    </code></pre>
+  </div>
+</div>
