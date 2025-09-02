@@ -1,59 +1,51 @@
 # TimeVisualizer
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6.
+TimeVisualizer es una aplicación web desarrollada con Angular que muestra la hora actual y el progreso del día de forma visual y dinámica. Incluye animaciones reactivas, partículas en el fondo y estilos modernos para una experiencia atractiva.
 
-## Development server
+## Características
 
-To start a local development server, run:
+- Visualización en tiempo real de la fecha y hora actual.
+- Fondo animado con degradados y partículas.
+- Valores destacados con animaciones y efectos visuales.
+- Código limpio y modular usando Angular 19+ y signals.
 
-```bash
-ng serve
-```
+## Instalación
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/samjes1/time-visualizer.git
+   cd time-visualizer
+   ```
+2. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+3. Inicia el servidor de desarrollo:
+   ```bash
+   ng serve
+   ```
+4. Abre tu navegador en [http://localhost:4200](http://localhost:4200)
 
-## Code scaffolding
+## Uso
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- La aplicación muestra la hora actual y el progreso del día en una tarjeta animada.
+- El fondo y los valores cambian con animaciones y efectos visuales.
+- Puedes personalizar los estilos y agregar nuevas funcionalidades fácilmente.
 
-```bash
-ng generate component component-name
-```
+## Scripts útiles
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- `ng serve`: Inicia el servidor de desarrollo.
+- `ng build`: Compila la aplicación para producción.
+- `ng test`: Ejecuta los tests unitarios.
 
-```bash
-ng generate --help
-```
+## Personalización
 
-## Building
+Puedes modificar los estilos en `src/app/time-visualizer/time-visualizer.component.scss` y la lógica en `src/app/time-visualizer/time-visualizer.component.ts` para adaptar la visualización a tus necesidades.
 
-To build the project run:
+## Créditos
 
-```bash
-ng build
-```
+Desarrollado por [samjes1](https://github.com/samjes1) usando Angular CLI 19.2.6.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## Licencia
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Este proyecto está bajo la licencia MIT.
