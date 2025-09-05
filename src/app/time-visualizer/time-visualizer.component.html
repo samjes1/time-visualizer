@@ -15,14 +15,14 @@
   <div class="code-block">
     <pre><code>
       const currentTime = {{ '{' }}
-      year: <span>{{ timeService.time().year }}</span>,
-      month: <span>{{ timeService.time().month }}</span>,
-      day: <span>{{ timeService.time().day }}</span>,
-      dayOfWeek: "<span>{{ timeService.time().dayOfWeek }}</span>",
-      hour: <span>{{ timeService.time().hour }}</span>,
-      minute: <span>{{ timeService.time().minute }}</span>,
-      second: <span>{{ timeService.time().second }}</span>,
-      dayProgress: "<span>{{ timeService.time().dayProgress }}</span>"
+          year: <span>{{ timeService.time().year }}</span>,
+          month: <span>{{ timeService.time().month }}</span>,
+          day: <span>{{ timeService.time().day }}</span>,
+          dayOfWeek: "<span>{{ timeService.time().dayOfWeek }}</span>",
+          hour: <span>{{ timeService.time().hour }}</span>,
+          minute: <span>{{ timeService.time().minute }}</span>,
+          second: <span>{{ timeService.time().second }}</span>,
+          dayProgress: "<span>{{ timeService.time().dayProgress }}</span>"
       {{ '};' }}
     </code></pre>
     <div class="digital-clock"> {{ currentTime() }}</div>
